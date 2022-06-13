@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>HeladeriaLosEspaciales1._0</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Batido de Piña.png" />
+    <None Remove="Assets\Batido de Sandia.jpg" />
+    <None Remove="Assets\batidoFresa.png" />
+    <None Remove="Assets\Canasta de Helado.png" />
+    <None Remove="Assets\Cono Junior.png" />
+    <None Remove="Assets\Cono triple.jpg" />
+    <None Remove="Assets\Copa de Helado.png" />
+    <None Remove="Assets\IconoBienve.jpeg" />
+    <None Remove="Assets\isaac.jpg" />
+    <None Remove="Assets\jovanella.jpg" />
+    <None Remove="Assets\malteada-chocolate.png" />
+    <None Remove="Assets\step.jpg" />
+    <None Remove="Assets\Sundae.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\jovanella.jpg" />
+    <Resource Include="Assets\step.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Batido de Piña.png" />
+    <Resource Include="Assets\Batido de Sandia.jpg" />
+    <Resource Include="Assets\batidoFresa.png" />
+    <Resource Include="Assets\Canasta de Helado.png" />
+    <Resource Include="Assets\Cono Junior.png" />
+    <Resource Include="Assets\Cono triple.jpg" />
+    <Resource Include="Assets\Copa de Helado.png" />
+    <Resource Include="Assets\IconoBienve.jpeg" />
+    <Resource Include="Assets\isaac.jpg" />
+    <Resource Include="Assets\malteada-chocolate.png" />
+    <Resource Include="Assets\Sundae.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

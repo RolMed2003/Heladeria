@@ -1,0 +1,28 @@
+﻿<Window x:Class="HeladeriaLosEspaciales1._0.EditarProducto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeladeriaLosEspaciales1._0"
+        mc:Ignorable="d"
+        Title=" -  EditarProducto"
+        Height="300"
+        Width="450"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Label Content="Editar Producto" HorizontalAlignment="Center" Height="37" Margin="0,10,0,0" VerticalAlignment="Top" Width="176" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Height="30" Margin="10,52,0,0" VerticalAlignment="Top" Width="140" FontSize="16"/>
+        <Label Content="Precio de venta:" HorizontalAlignment="Left" Height="30" Margin="10,87,0,0" VerticalAlignment="Top" Width="140" FontSize="16"/>
+        <Label Content="Costo:" HorizontalAlignment="Left" Height="30" Margin="10,122,0,0" VerticalAlignment="Top" Width="140" FontSize="16"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Height="30" Margin="10,157,0,0" VerticalAlignment="Top" Width="140" FontSize="16"/>
+        <TextBox x:Name="cantidadTxt" HorizontalAlignment="Left" Height="24" Margin="155,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" FontSize="16"/>
+        <TextBox x:Name="costoTxt" HorizontalAlignment="Left" Height="24" Margin="155,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" FontSize="16"/>
+        <TextBox x:Name="precioTxt" HorizontalAlignment="Left" Height="24" Margin="155,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" FontSize="16"/>
+        <TextBox x:Name="nombreTxt" HorizontalAlignment="Left" Height="24" Margin="155,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" IsEnabled="False" FontSize="16"/>
+        <Button Content="Aplicar" HorizontalAlignment="Left" Height="37" Margin="155,199,0,0" VerticalAlignment="Top" Width="112" FontSize="16" Click="Button_Click"/>
+
+
+
+    </Grid>
+</Window>

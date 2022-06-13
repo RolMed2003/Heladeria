@@ -1,0 +1,167 @@
+﻿<Window x:Class="HeladeriaLosEspaciales1._0.Cliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeladeriaLosEspaciales1._0"
+        mc:Ignorable="d"
+        Title="Cliente"
+        Height="500"
+        Width="800"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True">
+
+    <Grid Background="WhiteSmoke">
+
+        <ScrollViewer>
+
+            <Grid Background="AntiqueWhite"
+                  Height="750">
+
+                <Button Background="Red"
+                        x:Name="SalirBtn"
+                        Width="70"
+                        Height="30"
+                        Content="Salir"
+                        Foreground="White"
+                        Click="salirBtn"
+                        Cursor="Hand" Margin="703,10,10,710"/>
+
+                <Label Content="Ordena tu favorito!"
+                       HorizontalContentAlignment="Center"
+                       FontSize="22"
+                       FontFamily="Yu Ghotic UI"
+                       FontWeight="Bold" Margin="236,25,237,686"/>
+
+                <Image Source="Assets/Batido de Piña.png"
+                       Height="150"
+                       Width="200"
+                       Cursor="Hand"
+                       Margin="10,67,573,533" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+
+                <Label Content="Batido de piña"
+                       Width="200"
+                       Height="30"
+                       HorizontalContentAlignment="Center"
+                       FontFamily="Yu Ghotic UI"
+                       FontWeight="Bold"
+                       FontSize="16"
+                       Margin="10,214,573,506"/>
+
+                <Image Source="Assets/Batido de Sandia.jpg"
+                       Height="150"
+                       Width="200"
+                       Margin="292,67,291,533"
+                       Cursor="Hand" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
+
+                <Label Content="Batido de sandia"
+                       Width="200"
+                       Height="30"
+                       Margin="291,214,292,506"
+                       HorizontalContentAlignment="Center"
+                       FontFamily="Yu Ghotic UI"
+                       FontWeight="Bold"
+                       FontSize="16"/>
+
+                <Image Source="/Assets/Canasta de Helado.png"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="10,284,573,316"/>
+                <Label Content="Canasta de helado"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="10,438,573,282"/>
+                <Image Source="/Assets/batidoFresa.png"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="573,60,10,533" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+                <Label Content="Batido de fresa"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="573,214,10,506"/>
+                <Image Source="/Assets/Cono Junior.png"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="292,284,291,316"/>
+                <Label Content="Cono junior"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="292,438,291,282"/>
+                <Image Source="/Assets/Cono triple.jpg"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="573,284,10,316"/>
+                <Label Content="Cono triple"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="573,438,10,282"/>
+                <Image Source="/Assets/Copa de Helado.png"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="10,506,573,94"/>
+                <Label Content="Copa de helado"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="10,660,573,60"/>
+                <Image Source="/Assets/malteada-chocolate.png"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="291,506,292,94"/>
+                <Label Content="Malteada de chocolate"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="291,660,292,60"/>
+                <Image Source="/Assets/Sundae.png"
+                    Height="150"
+                    Width="200"
+                    Cursor="Hand"
+                    Margin="573,506,10,94"/>
+                <Label Content="Sundae"
+                    Width="200"
+                    Height="30"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Yu Ghotic UI"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Margin="573,660,10,60"/>
+
+
+
+
+            </Grid>
+
+        </ScrollViewer>
+
+    </Grid>
+</Window>

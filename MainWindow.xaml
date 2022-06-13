@@ -1,0 +1,85 @@
+﻿<Window x:Class="HeladeriaLosEspaciales1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeladeriaLosEspaciales1._0"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="342"
+        Width="600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize"
+        AllowsTransparency="True">
+
+    <Grid Background="WhiteSmoke">
+
+        <StackPanel Background="White"
+                    Width="280"
+                    Margin="0,0,320,0">
+
+            <Label Content="Heladeria Los Espaciales"
+                   HorizontalAlignment="Center"
+                   FontSize="22"
+                   FontFamily="Yu Ghotic UI"
+                   FontWeight="Bold"/>
+
+            <Image Source="/Assets/IconoBienve.jpeg"
+                   Margin="0 10"/>
+
+        </StackPanel>
+
+        <Button Background="Red"
+                x:Name="SalirBtn"
+                Width="auto"
+                Height="30"
+                Margin="540,10,10,303"
+                Content="Salir"
+                Foreground="White"
+                Click="salirBtn"
+                Cursor="Hand"/>
+
+        <StackPanel Margin="285,50,0,0">
+
+            <Label Content="Usuario"
+                   FontSize="18"
+                   Margin="0 35 0 0"
+                   FontFamily="Yu Ghotic UI"
+                   HorizontalContentAlignment="Center"/>
+
+            <TextBox FontSize="18"
+                     x:Name="usernameTxt"
+                     FontFamily="Yu Ghotic UI"
+                     HorizontalContentAlignment="Center"
+                     Margin="20 0"
+                     Background="Gray"
+                     Foreground="FloralWhite"/>
+
+            <Label Content="Contraseña"
+                   FontSize="18"
+                   Margin="0 20 0 0"
+                   FontFamily="Yu Ghotic UI"
+                   HorizontalContentAlignment="Center"/>
+
+            <PasswordBox FontSize="18"
+                         x:Name="passwordTxt"
+                         FontFamily="Yu Ghotic UI"
+                         HorizontalContentAlignment="Center"
+                         Margin="20 0"
+                         Background="Gray"
+                         Foreground="FloralWhite"/>
+
+            <Button x:Name="LoginBtn"
+                    Content="Ingresar"
+                    Background="Gray"
+                    Margin="100 30"
+                    FontSize="18"
+                    FontFamily="Yu Ghotic UI"
+                    Click="LoginBtn_Click"
+                    Cursor="Hand"/>
+
+        </StackPanel>
+
+    </Grid>
+    
+</Window>

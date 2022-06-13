@@ -1,0 +1,89 @@
+﻿<Window x:Class="HeladeriaLosEspaciales1._0.Ordenar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeladeriaLosEspaciales1._0"
+        mc:Ignorable="d"
+        Title="Ordenar"
+        Height="300"
+        Width="500"
+        WindowStartupLocation="CenterScreen" Cursor="Hand">
+
+    <Grid Background="AntiqueWhite">
+        <Label Content="¿Cuántos deseas?" HorizontalAlignment="Center" Height="37" Margin="0,10,0,0" VerticalAlignment="Top" Width="154" FontSize="18" FontWeight="SemiBold"/>
+        <Label Content="Precio:" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="80" FontSize="16"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="80" FontSize="16"/>
+        <Label Content="Orden maxima:" HorizontalAlignment="Left" Margin="95,154,0,0" VerticalAlignment="Top" Width="84" FontSize="11"/>
+        <TextBox HorizontalAlignment="Left" Margin="95,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" FontSize="16"/>
+        <TextBlock x:Name="ordenMaxTxt" HorizontalAlignment="Left" Margin="179,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="36"/>
+        <TextBlock x:Name="precioTxt" HorizontalAlignment="Left" Margin="95,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="84"/>
+        <Button Content="Seguir ordenando" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="117" Height="30"/>
+        <Button Content="Finalizar compra" HorizontalAlignment="Left" Margin="155,221,0,0" VerticalAlignment="Top" Width="117" Height="30"/>
+
+        <!--Pina batido-->
+        <Image x:Name="img_Copy" Source="/Assets/Batido de Piña.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown" Visibility="Hidden"/>
+
+        <!--sandia batido-->
+        <Image x:Name="img_Copy1" Source="/Assets/Batido de Sandia.jpg"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown1" Visibility="Hidden"/>
+
+        <!--Fresa batido-->
+        <Image x:Name="img_Copy2" Source="/Assets/batidoFresa.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown2" Visibility="Hidden"/>
+
+        <!--Canasta helado-->
+        <Image x:Name="img_Copy3" Source="/Assets/Canasta de Helado.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown3" Visibility="Hidden"/>
+
+        <!--Cono junior-->
+        <Image x:Name="img_Copy4" Source="/Assets/Cono Junior.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown4" Visibility="Hidden"/>
+
+        <!--Cono triple-->
+        <Image x:Name="img_Copy5" Source="/Assets/Cono triple.jpg"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown5" Visibility="Hidden"/>
+
+        <!--Copa de helado-->
+        <Image x:Name="img_Copy6" Source="/Assets/Copa de Helado.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown6" Visibility="Hidden"/>
+
+        <!--Malteada de chocolate-->
+        <Image x:Name="img_Copy7" Source="/Assets/malteada-chocolate.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown7" Visibility="Hidden"/>
+
+        <!--Sundae-->
+        <Image x:Name="img_Copy8" Source="/Assets/Sundae.png"
+            Height="150"
+            Width="200"
+            Cursor="Hand"
+            Margin="290,59,10,65" MouseLeftButtonDown="Image_MouseLeftButtonDown8" Visibility="Hidden"/>
+        <Label Content="C$" HorizontalAlignment="Left" Margin="179,73,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
